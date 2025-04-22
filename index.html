@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Basic SEO -->
+    <meta
+      name="description"
+      content="A modern NVIDIA-style landing page, responsive and elegant."
+    />
+    <meta
+      name="keywords"
+      content="NVIDIA, landing page, AI, tech, modern design"
+    />
+    <meta name="author" content="Otto Proaño" />
+
+    <!-- Site icon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- Page title -->
+    <title>NVIDIA Landing Template</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- Social media preview (Open Graph) -->
+    <meta property="og:title" content="NVIDIA Landing Template" />
+    <meta
+      property="og:description"
+      content="An elegant landing page inspired by NVIDIA's design."
+    />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/assets/img/preview.png"
+    />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Favicons for more devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbarSupportedContent"
+    data-bs-offset="64"
+    tabindex="0"
+  >
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-md fixed-top border-bottom border-secondary nav-background"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a
+          href="#home"
+          class="navbar-brand d-inline-flex align-items-center text-white text-decoration-none"
+        >
+          <svg
+            width="55"
+            height="47"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12.447,12.265V10.591c.163-.012.327-.02.494-.026,4.577-.143,7.581,3.934,7.581,3.934S17.278,19,13.8,19a4.2,4.2,0,0,1-1.353-.217V13.712c1.782.215,2.14,1,3.212,2.788l2.383-2.009A6.312,6.312,0,0,0,13.37,12.21a8.606,8.606,0,0,0-.923.055m0-5.529v2.5c.164-.013.329-.024.494-.03,6.366-.214,10.513,5.221,10.513,5.221s-4.764,5.792-9.726,5.792a7.4,7.4,0,0,1-1.281-.112v1.545a8.528,8.528,0,0,0,1.067.069c4.618,0,7.958-2.358,11.192-5.15.535.43,2.731,1.474,3.182,1.932-3.075,2.574-10.241,4.649-14.3,4.649-.392,0-.769-.024-1.138-.06v2.172H30V6.736Zm0,12.051v1.32c-4.271-.762-5.457-5.2-5.457-5.2a9.234,9.234,0,0,1,5.457-2.64v1.447h-.006a4.1,4.1,0,0,0-3.184,1.456s.782,2.811,3.19,3.62M4.861,14.713a10.576,10.576,0,0,1,7.586-4.122V9.236C6.848,9.685,2,14.427,2,14.427s2.746,7.939,10.447,8.665v-1.44C6.8,20.941,4.861,14.713,4.861,14.713Z"
+                style="fill: rgb(128, 188, 0)"
+              ></path>
+            </g>
+          </svg>
+          <span class="ms-3 fs-4 fw-semibold">Your Brand</span>
+        </a>
+
+        <!-- Small devices button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div
+          class="collapse navbar-collapse border-1 border-md-0 rounded"
+          style="border-color: #76b900 !important"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav nav-pills mx-auto my-2 my-md-0 text-center">
+            <li class="nav-item">
+              <a href="#home" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#features" class="nav-link text-white">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link text-white">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#whyus" class="nav-link text-white">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faqs" class="nav-link text-white">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-white">About</a>
+            </li>
+          </ul>
+
+          <div class="justify-content-center pt-2 pb-4 py-md-0 d-flex">
+            <button type="button" class="btn btn-outline-nvidia me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-nvidia">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section
+      id="home"
+      style="margin-top: 75px"
+      class="container col-xxl-8 px-4 py-5 mb-4"
+    >
+      <!-- Hero -->
+      <div class="row align-items-center gx-5 py-5 mb-5 px-4">
+        <!-- Title and description -->
+        <div class="col-12 col-md-6 text-center text-md-start px-4">
+          <!-- Title -->
+          <h1 class="display-5 fw-bold text-white lh-1 mb-3">
+            Add your <br class="d-block d-md-none" />
+            <span class="typed-fallback">original</span>
+
+            <span id="typed" style="color: #76b900" aria-hidden="true"></span
+            ><br />
+            business phrase here
+            <!-- Screen readers -->
+            <span class="visually-hidden">Your original business phrase</span>
+          </h1>
+
+          <p class="lead text-white mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero. Sed cursus ante dapibus.
+          </p>
+          <div
+            class="d-grid gap-2 d-sm-flex justify-content-center justify-content-md-start"
+          >
+            <button type="button" class="btn btn-nvidia btn-lg px-4 me-sm-2">
+              Get Started
+            </button>
+            <button type="button" class="btn btn-outline-nvidia btn-lg px-4">
+              Explore
+            </button>
+          </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="col-12 col-md-6 mt-5 mt-md-0">
+          <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://placehold.co/600x400/0C0C0C/FFF?text=Carousel+img+1"
+                  class="d-block w-100 rounded"
+                  alt="Hardware 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://placehold.co/600x400/0C0C0C/FFF?text=Carousel+img+2"
+                  class="d-block w-100 rounded"
+                  alt="Hardware 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://placehold.co/600x400/0C0C0C/FFF?text=Carousel+img+3"
+                  class="d-block w-100 rounded"
+                  alt="Hardware 3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://placehold.co/600x400/0C0C0C/FFF?text=Carousel+img+4"
+                  class="d-block w-100 rounded"
+                  alt="Hardware 4"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://placehold.co/600x400/0C0C0C/FFF?text=Carousel+img+5"
+                  class="d-block w-100 rounded"
+                  alt="Hardware 5"
+                />
+              </div>
+            </div>
+
+            <!-- Indicadores corregidos -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demo -->
+      <div class="container col-lg-8 px-4 pb-4 pt-3 mb-4 mt-5">
+        <div class="text-center">
+          <h2 class="fw-semibold fs-1 text-white mb-3">Demo</h2>
+          <p class="lead mx-auto" style="max-width: 700px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            tempus nunc vel nulla commodo, sed luctus justo pretium.
+          </p>
+          <div class="text-center mt-4">
+            <button type="button" class="btn btn-outline-nvidia btn-lg px-4">
+              Show Demo
+            </button>
+          </div>
+        </div>
+
+        <!-- Video -->
+        <div class="d-flex justify-content-center my-4">
+          <div
+            class="mb-4 ratio ratio-16x9"
+            style="max-width: 720px; border-radius: 12px; overflow: hidden"
+          >
+            <video
+              id="demoVideo"
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              poster="https://via.placeholder.com/800x450?text=Video+Demo"
+              controls
+              muted
+              playsinline
+              style="border-radius: 12px"
+            >
+              Your browser does not support the video tag.<code>video</code>.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <div
+      class="container-fluid py-5 partner-section mb-5"
+      style="background-color: #000"
+    >
+      <div class="container py-2">
+        <h2 class="fw-semibold fs-1 text-white mb-4 text-center">Partners</h2>
+        <div
+          class="partner-slider"
+          style="
+            border-top: 2px solid #76b900;
+            border-bottom: 2px solid #76b900;
+            padding: 15px 0;
+          "
+        >
+          <div class="partner-slide-track">
+            <!-- Secuencia original -->
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 1"
+              />
+            </div>
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 2"
+              />
+            </div>
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 3"
+              />
+            </div>
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 4"
+              />
+            </div>
+
+            <!-- Repetición idéntica para cerrar el bucle sin saltos -->
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 1"
+              />
+            </div>
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 2"
+              />
+            </div>
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 3"
+              />
+            </div>
+            <div class="partner-slide">
+              <img
+                src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20224/62756943b3aed35505d6503f_NVIDIA-logo-BL/NVIDIA-logo-BL_thmb.jpg"
+                alt="Partner 4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Functionality & Features -->
+    <section
+      id="features"
+      class="container col-xxl-8 px-4 py-5 mt-4 mb-5 text-center"
+    >
+      <h2 class="fw-semibold fs-1 text-white mb-3 pt-3 px-4">
+        Functionality & Features
+      </h2>
+      <p class="lead mx-auto col-md-8 px-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi
+        ut nunc bibendum, mattis arcu sit amet, laoreet orci.
+      </p>
+
+      <!-- Grid with 4 cards -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4 px-2">
+        <!-- Card 1 -->
+        <div class="col d-flex justify-content-center">
+          <div
+            class="card h-100 border-secondary bg-transparent text-center p-3"
+            style="max-width: 20rem"
+          >
+            <div class="card-body">
+              <!-- Green circle with transparent SVG icon -->
+              <div class="d-flex justify-content-center mb-3">
+                <div
+                  style="
+                    background-color: #76b900;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="2"
+                  >
+                    <!-- Icon: gear -->
+                    <path
+                      d="M8 1a5 5 0 0 0-4.58 2.79l-.94-.33-.65 1.76.94.33a4.946 
+                       4.946 0 0 0-.02 1.69l-.92.33.65 1.76.92-.33c.3.59.73 
+                       1.13 1.26 1.56l-.56.83 1.41 1.41.83-.56c.43.53.97.96 
+                       1.56 1.26l-.33.92 1.76.65.33-.92c.58.1 1.19.1 
+                       1.77 0l.33.92 1.76-.65-.33-.92a4.946 4.946 0 0 0 
+                       1.26-1.26l.83.56 1.41-1.41-.56-.83c.53-.43.96-.97 
+                       1.26-1.56l.92.33.65-1.76-.92-.33c.1-.58.1-1.19 
+                       0-1.77l.92-.33-.65-1.76-.92.33C13 2.1 12.47 1.67 
+                       11.94 1.24l.56-.83L11.09 0l-.83.56c-.53-.43-1.06-.76-1.63-.99V1zm1 9.93A2.93 
+                       2.93 0 1 1 8 5.07a2.93 2.93 0 0 1 1 5.86z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!-- Card title and text -->
+              <h5 class="card-title fw-bold mb-3" style="color: #76b900">
+                Automation
+              </h5>
+              <p class="card-text" style="color: #ccc">
+                Lorem ipsum dolor sit amet, adipiscing elit. Sed do eiusmod
+                tempor incididunt.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col d-flex justify-content-center">
+          <div
+            class="card h-100 border-secondary bg-transparent text-center p-3"
+            style="max-width: 20rem"
+          >
+            <div class="card-body">
+              <div class="d-flex justify-content-center mb-3">
+                <div
+                  style="
+                    background-color: #76b900;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="2"
+                  >
+                    <!-- Icon: speedometer -->
+                    <path
+                      d="M8 4a.5.5 0 0 1 .5.5v3.707l1.043 
+                       1.043a.5.5 0 0 1-.708.708l-1.1-1.1A.5.5 0 
+                       0 1 7.5 8.5V4.5A.5.5 0 0 1 8 
+                       4zm6.364 3.636a8 8 0 1 
+                       1-12.728 0 .5.5 0 0 
+                       1 .76.65 7 7 0 1 0 11.208 0 .5.5 
+                       0 0 1 .76-.65z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h5 class="card-title fw-bold mb-3" style="color: #76b900">
+                Speed
+              </h5>
+              <p class="card-text" style="color: #ccc">
+                Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                Sed nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col d-flex justify-content-center">
+          <div
+            class="card h-100 border-secondary bg-transparent text-center p-3"
+            style="max-width: 20rem"
+          >
+            <div class="card-body">
+              <div class="d-flex justify-content-center mb-3">
+                <div
+                  style="
+                    background-color: #76b900;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="2"
+                  >
+                    <!-- Icon: check2-circle -->
+                    <path
+                      d="M2.5 8a5.5 5.5 0 1 1 
+                       11 0 5.5 5.5 0 0 1-11 
+                       0zm5.854-1.146a.5.5 0 0 0-.708 
+                       0L6.5 7.293 5.854 6.646a.5.5 
+                       0 1 0-.708.708l1 1a.5.5 
+                       0 0 0 .708 0l2-2a.5.5 
+                       0 0 0 0-.708z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h5 class="card-title fw-bold mb-3" style="color: #76b900">
+                Reliability
+              </h5>
+              <p class="card-text" style="color: #ccc">
+                Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+                Curabitur tortor.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col d-flex justify-content-center">
+          <div
+            class="card h-100 border-secondary bg-transparent text-center p-3"
+            style="max-width: 20rem"
+          >
+            <div class="card-body">
+              <div class="d-flex justify-content-center mb-3">
+                <div
+                  style="
+                    background-color: #76b900;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="2"
+                  >
+                    <!-- Icon: people -->
+                    <path
+                      d="M13 7a3 3 0 1 0-2.053-5.224.5.5 0 
+                       0 1 .707.707A2.002 2.002 0 0 1 
+                       13 6a2 2 0 0 1-1.413 
+                       1.913c.27.273.413.647.413 1.087 
+                       0 .93-.783 1.75-1.75 
+                       1.75H10.5a.5.5 0 1 
+                       1 0-1h.75c.416 0 .75-.336.75-.75 
+                       0-.414-.336-.75-.75-.75H8.5a2.491 
+                       2.491 0 0 0-1.735.708c.065.036.128.074.188.115A3.502 
+                       3.502 0 0 1 8 14.5C8 15.327 7.327 
+                       16 6.5 16a.5.5 0 0 
+                       1 0-1c.275 0 .5-.225.5-.5 
+                       0-.337-.12-.541-.333-.737-.215-.198-.543-.376-.971-.545C3.866 
+                       13.08 3 12.218 3 11.25c0-.596.155-1.059.409-1.48.246-.41.584-.8.991-1.165A4.002 
+                       4.002 0 0 1 
+                       4 5.5a3 3 0 0 1 6 0c0 .223-.028.438-.08.642a.5.5 
+                       0 1 1-.94-.342c.028-.076.02-.16.02-.3 
+                       0-1.105-.895-2-2-2s-2 
+                       .895-2 2c0 1.213 1.004 2.392 2.33 
+                       2.876.246.088.486.157.72.209.247.053.542.086.847.086h.305c.31 
+                       0 .593.111.844.281.333.22.63.514.857.867C12.775 
+                       9.638 13 8.869 13 8v-.5Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h5 class="card-title fw-bold mb-3" style="color: #76b900">
+                Collaboration
+              </h5>
+              <p class="card-text" style="color: #ccc">
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                sem. Nulla consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="container px-4 py-5 my-5" id="icon-grid">
+      <!-- Main title with gray border and white text -->
+      <h2 class="mt-4 pb-2 text-white text-center fs-1">
+        Most Popular Services
+      </h2>
+
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 px-3"
+      >
+        <!-- Item 1 -->
+        <div class="col d-flex align-items-start">
+          <!-- Inline icon in NVIDIA green (#76B900) -->
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "gear-fill" -->
+            <path
+              d="M8 1a5 5 0 0 0-4.58 2.79l-.94-.33-.65 1.76.94.33a4.946 
+                   4.946 0 0 0-.02 1.69l-.92.33.65 1.76.92-.33c.3.59.73 
+                   1.13 1.26 1.56l-.56.83 1.41 1.41.83-.56c.43.53.97.96 
+                   1.56 1.26l-.33.92 1.76.65.33-.92c.58.1 1.19.1 
+                   1.77 0l.33.92 1.76-.65-.33-.92a4.946 4.946 0 0 0 
+                   1.26-1.26l.83.56 1.41-1.41-.56-.83c.53-.43.96-.97 
+                   1.26-1.56l.92.33.65-1.76-.92-.33c.1-.58.1-1.19 
+                   0-1.77l.92-.33-.65-1.76-.92.33C13 2.1 12.47 1.67 
+                   11.94 1.24l.56-.83L11.09 0l-.83.56c-.53-.43-1.06-.76-1.63-.99V1zm1 9.93A2.93 
+                   2.93 0 1 1 8 5.07a2.93 2.93 0 0 1 1 5.86z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="col d-flex align-items-start">
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "graph-up" -->
+            <path
+              d="M0 0h1v15h15v1H0V0zm14 10.5a.5.5 0 0 1-.832.374l-2.81-2.81-2.146 
+                   2.146a.5.5 0 0 1-.708 0L5.5 8.207l-3.646 3.647-.708-.708L5.5 
+                   6.793l2.146 2.147 2.146-2.147a.5.5 0 0 1 
+                   .708 0l3.167 3.167c.09.09.133.21.133.33z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Aliquam erat volutpat. Nullam in dui mauris.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col d-flex align-items-start">
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "check2-circle" -->
+            <path
+              d="M2.5 8a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0zm5.854-1.146a.5.5 0 0 0-.708 
+                   0L6.5 7.293 5.854 6.646a.5.5 0 1 0-.708.708l1 1a.5.5 
+                   0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Praesent dapibus, neque id cursus faucibus, tortor neque.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="col d-flex align-items-start">
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "house-fill" -->
+            <path
+              d="M8 .5l6 6V15a1 1 0 0 1-1 
+                   1h-4a1 1 0 0 1-1-1V10H6v5a1 1 0 0 1-1 
+                   1H1a1 1 0 0 1-1-1V6.5l6-6a1 1 0 0 1 1.4 0z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Aliquam erat volutpat. Nulla facilisi. Curabitur non nulla.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="col d-flex align-items-start">
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "speedometer2" -->
+            <path
+              d="M8 4a.5.5 0 0 1 .5.5v3.707l1.043 
+                   1.043a.5.5 0 0 1-.708.708l-1.1-1.1A.5.5 0 
+                   0 1 7.5 8.5V4.5A.5.5 0 0 1 8 
+                   4zm6.364 3.636a8 8 0 1 
+                   1-12.728 0 .5.5 0 0 
+                   1 .76.65 7 7 0 1 0 11.208 0 .5.5 
+                   0 0 1 .76-.65z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Pellentesque in ipsum id orci porta dapibus. Proin eget tortor
+              risus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="col d-flex align-items-start">
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "toggles2" -->
+            <path
+              d="M9.982 5H2.5a.5.5 0 0 0 0 
+                   1h7.482a3 3 0 0 1 5.018 
+                   2 3 3 0 0 1-5.018 2H2.5a.5.5 
+                   0 0 0 0 1h7.482a4 4 0 1 
+                   0 0-6zM6.018 11H13.5a.5.5 
+                   0 0 0 0-1H6.018a3 3 0 
+                   0 1-5.018-2 3 3 0 0 
+                   1 5.018-2H13.5a.5.5 0 
+                   0 0 0-1H6.018a4 4 0 
+                   0 0 0 6z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="col d-flex align-items-start">
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "geo-fill" -->
+            <path
+              d="M8 0a5.53 5.53 0 0 0-5.5 
+                   5.5c0 1.608.792 3.388 2.05 
+                   4.975.627.84 1.342 1.634 
+                   2.108 2.35.393.382.916.675 
+                   1.342.675.428 
+                   0 .949-.293 1.342-.675.766-.716 
+                   1.481-1.51 2.108-2.35C12.708 
+                   8.888 13.5 7.108 13.5 
+                   5.5A5.53 5.53 0 0 0 8 0zm0 
+                   8a2.5 2.5 0 1 1 
+                   0-5 2.5 2.5 0 0 1 0 5z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Donec sollicitudin molestie malesuada. Nulla porttitor..
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="col d-flex align-items-start">
+          <svg
+            width="1.75em"
+            height="1.75em"
+            viewBox="0 0 16 16"
+            fill="#76B900"
+            class="flex-shrink-0 me-3"
+          >
+            <!-- Example: icon "tools" -->
+            <path
+              d="M1 0a.5.5 0 0 1 .5.5v1.55A1.5 
+                   1.5 0 0 0 2.563 4.4L.202 
+                   6.76A2 2 0 0 0 3.24 9.798l2.359-2.36a1.5 
+                   1.5 0 0 0 1.35 1.063H8.5a.5.5 
+                   0 0 1 0 1H5.8l-1.09 1.09 
+                   a2 2 0 1 0 2.828 2.829l1.09-1.09v-2.7a.5.5 
+                   0 0 1 1 0v2.7l1.06 
+                   1.06a2 2 0 0 0 2.829-2.829L11.2 
+                   9.5H8.5a.5.5 0 0 1 0-1h1.063a1.5 1.5 
+                   0 0 0 1.06-1.35l2.36-2.36A2 2 0 0 0 
+                   9.8.201L7.44 2.56A1.5 1.5 0 0 0 5.948 
+                   1.5H4.5V.5A.5.5 0 0 1 5 
+                   0h4.225a.5.5 0 0 1 0 1H5.5a.5.5 0 0 1-.5-.5H1z"
+            />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-white">Featured title</h3>
+            <p style="color: #ccc">
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="whyus" class="container my-5 col-md-8">
+      <!-- Title -->
+      <div class="text-center mb-5 pt-5 mx-4">
+        <h1 class="fw-semibold text-white mb-3">Why Choose Us</h1>
+        <p class="lead mx-auto" style="max-width: 700px; color: #ccc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          feugiat justo ut augue mattis, id tempor nisl faucibus.
+        </p>
+
+        <!-- Línea horizontal debajo de la descripción -->
+        <hr
+          style="border-top: 1px solid #76b900; width: 100px; margin: 20px auto"
+        />
+      </div>
+
+      <!-- Main Section -->
+      <div class="row position-relative align-items-center">
+        <!-- Imagen + título -->
+        <div
+          class="col-md-6 d-flex flex-column align-items-center justify-content-center order-1 pe-0 pe-md-5"
+        >
+          <h3 class="text-white text-center">Section 1</h3>
+          <div class="px-4 px-md-0">
+            <img
+              src="https://placehold.co/600x400/0C0C0C/FFF?text=Image+1"
+              alt="Resumen General"
+              class="img-fluid"
+              style="border: 1px solid #444"
+            />
+          </div>
+        </div>
+
+        <!-- Viñetas -->
+        <div
+          class="col-md-6 d-flex flex-column align-items-center justify-content-center ps-4 order-2"
+        >
+          <div class="mt-4">
+            <h4 style="color: #76b900" class="text-center">Functionality</h4>
+            <ul style="color: #ddd; font-size: 1rem">
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Etiam gravida metus ut turpis.</li>
+              <li>Vivamus tempus odio nec pretium.</li>
+              <li>Donec luctus eros in lectus.</li>
+            </ul>
+            <h4 style="color: #76b900" class="mt-4 text-center">Benefits</h4>
+            <ul style="color: #ddd; font-size: 1rem">
+              <li>Explorare cursus ut sapien vitae pretium varius velit.</li>
+              <li>Integer non arcu at nulla faucibus convallis sed.</li>
+              <li>
+                Curabitur auctor magna vel nibh interdum, ac congue erat
+                posuere.
+              </li>
+              <li>Praesent iaculis erat ut augue gravida, sapien.</li>
+              <li>Vestibulum at leo eu velit feugiat dapibus nec.</li>
+              <li>
+                Aliquam in tortor ac justo lacinia malesuada nec ac sapien.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Divisor vertical -->
+        <div class="vertical-divider d-none d-md-flex">
+          <div class="circle"></div>
+          <div class="line"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <!-- See more Section -->
+      <div id="extraSections" class="collapse-content">
+        <!-- Extra Section 1 -->
+        <div class="container my-5" style="max-width: 900px; margin: 0 auto">
+          <div class="row position-relative align-items-center">
+            <!-- Imagen (móvil primero, desktop segundo) -->
+            <div
+              class="col-md-6 d-flex flex-column align-items-center justify-content-center order-1 order-md-2"
+            >
+              <div class="ps-0 ps-md-5">
+                <h3 class="text-white text-center mb-2">Extra Section 1</h3>
+
+                <div class="px-4 px-md-0">
+                  <img
+                    src="https://placehold.co/600x400/0C0C0C/FFF?text=Extra+Section+1"
+                    alt="Extra Sección 1"
+                    class="img-fluid extra-img"
+                    style="border: 1px solid #444"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Viñetas (móvil segundo, desktop primero) -->
+            <div
+              class="col-md-6 d-flex flex-column align-items-center justify-content-center order-2 pe-0 pe-md-5 order-md-1"
+            >
+              <div class="mt-4">
+                <h4 style="color: #76b900" class="text-center">
+                  Functionality
+                </h4>
+                <ul style="color: #ddd; font-size: 1rem">
+                  <li>Praesent luctus massa a mauris.</li>
+                  <li>Fusce sed justo a velit cursus.</li>
+                  <li>Curabitur feugiat leo nec tellus.</li>
+                </ul>
+                <h4 style="color: #76b900" class="mt-4 text-center">
+                  Benefits
+                </h4>
+                <ul style="color: #ddd; font-size: 1rem">
+                  <li>
+                    Explorare cursus ut sapien vitae pretium varius velit.
+                  </li>
+                  <li>Integer non arcu at nulla faucibus convallis sed.</li>
+                  <li>
+                    Curabitur auctor magna vel nibh interdum, ac congue erat
+                    posuere.
+                  </li>
+                  <li>Praesent iaculis erat ut augue gravida, sapien.</li>
+                  <li>Vestibulum at leo eu velit feugiat dapibus nec.</li>
+                  <li>
+                    Aliquam in tortor ac justo lacinia malesuada nec ac sapien.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Divisor vertical -->
+            <div class="vertical-divider d-none d-md-flex">
+              <div class="circle"></div>
+              <div class="line"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Extra Section 2 -->
+        <div class="container my-5" style="max-width: 900px; margin: 0 auto">
+          <div
+            class="row position-relative align-items-center"
+            style="min-height: 400px; margin: 0 auto"
+          >
+            <!-- Imagen (siempre primero) -->
+            <div
+              class="col-md-6 d-flex flex-column align-items-center justify-content-center order-1"
+            >
+              <div class="pe-0 pe-md-5">
+                <h3 class="text-white text-center mb-2">Extra Section 2</h3>
+                <div class="px-4 px-md-0">
+                  <img
+                    src="https://placehold.co/600x400/0C0C0C/FFF?text=Extra+Section+2"
+                    alt="Extra Sección 2"
+                    class="img-fluid extra-img"
+                    style="border: 1px solid #444"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Viñetas -->
+            <div
+              class="col-md-6 d-flex flex-column align-items-center justify-content-center order-2 ps-0 ps-md-5"
+            >
+              <div class="mt-4">
+                <h4 style="color: #76b900" class="text-center">
+                  Functionality
+                </h4>
+                <ul style="color: #ddd; font-size: 1rem">
+                  <li>Praesent luctus massa a mauris.</li>
+                  <li>Fusce sed justo a velit cursus.</li>
+                  <li>Curabitur feugiat leo nec tellus.</li>
+                </ul>
+                <h4 style="color: #76b900" class="mt-4 text-center">
+                  Benefits
+                </h4>
+                <ul style="color: #ddd; font-size: 1rem">
+                  <li>
+                    Explorare cursus ut sapien vitae pretium varius velit.
+                  </li>
+                  <li>Integer non arcu at nulla faucibus convallis sed.</li>
+                  <li>
+                    Curabitur auctor magna vel nibh interdum, ac congue erat
+                    posuere.
+                  </li>
+                  <li>Praesent iaculis erat ut augue gravida, sapien.</li>
+                  <li>Vestibulum at leo eu velit feugiat dapibus nec.</li>
+                  <li>
+                    Aliquam in tortor ac justo lacinia malesuada nec ac sapien.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Divisor vertical -->
+            <div class="vertical-divider d-none d-md-flex">
+              <div class="circle"></div>
+              <div class="line"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- See more button -->
+      <div class="text-center pb-5">
+        <button id="seeMore" class="btn btn-nvidia mt-3">See More</button>
+      </div>
+    </section>
+
+    <style>
+      /* En tu CSS global */
+      #dashboard .chart-wrapper {
+        width: 100%;
+        max-width: 700px;
+        /* altura = 50% del ancho de la ventana (se adapta), pero nunca menor que 260px ni mayor que 350px */
+        height: clamp(260px, 50vw, 350px);
+        margin: 0 auto; /* centra */
+      }
+    </style>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="py-5" style="background-color: #0c0c0c">
+      <div class="container text-center px-2 px-md-0">
+        <h2 class="text-white mb-4">Dashboard Profesional</h2>
+
+        <!-- Wrapper responsive -->
+        <div class="chart-wrapper position-relative">
+          <canvas id="nvidiaChart" class="w-100 h-100"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faqs -->
+    <section id="faqs" class="faq-section py-5">
+      <div class="container px-4 px-md-0">
+        <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- Accordion con borde externo y esquinas redondeadas -->
+            <div class="accordion" id="faqAccordion">
+              <!-- Ítem 1 (abierto por defecto) -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What services do you offer?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    <p class="mb-0">
+                      We offer a wide range of services including web design,
+                      development, SEO, and digital marketing. Our team of
+                      experts is dedicated to helping your business grow online.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Ítem 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How long does a typical project take?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    <p class="mb-0">
+                      Project timelines vary depending on the scope and
+                      complexity. A simple website might take 2–4 weeks, while a
+                      more complex web application could take several months.
+                      We'll provide a detailed timeline during our initial
+                      consultation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Ítem 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    What is your pricing structure?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    <p class="mb-0">
+                      We offer flexible pricing options including project‑based
+                      quotes and monthly retainers. Each solution is tailored to
+                      meet the unique needs of our clients. Contact us for a
+                      personalized quote.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /accordion -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Call to action -->
+    <section id="about" class="cta-section py-5">
+      <div class="container col-xxl-8 gx-4">
+        <div class="row align-items-center mx-2">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h2 class="display-5 fw-bold text-white mb-4">
+              Ready to Transform Your Business?
+            </h2>
+            <p class="lead text-white-50 mb-4">
+              Join thousands of satisfied customers who have taken their
+              operations to the next level with our innovative solutions.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <button class="btn btn-nvidia btn-lg mr-3 mb-3">
+                Get Started
+              </button>
+              <button class="btn btn-outline-light btn-lg mb-3">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-lg">
+              <div class="card-body px-3 py-3 px-md-5 py-md-5">
+                <h3 class="card-title mb-4">Schedule a Demo</h3>
+                <form>
+                  <div class="form-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="form-group mb-3">
+                    <input
+                      type="email"
+                      class="form-control form-control-lg"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                  <div class="form-group mb-4">
+                    <select class="form-control form-control-lg">
+                      <option selected>Select your industry</option>
+                      <option value="1">Technology</option>
+                      <option value="2">Finance</option>
+                      <option value="3">Healthcare</option>
+                      <option value="4">Education</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-nvidia btn-lg btn-block">
+                    Book Now
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mt-3 pt-2">
+      <div class="py-1 mb-4 border-top border-secondary">
+        <!-- Solo en XS: dos filas de 3 -->
+        <ul class="nav justify-content-center pb-1 d-flex d-sm-none">
+          <li class="nav-item">
+            <a href="#home" class="nav-link px-2 text-white">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link px-2 text-white">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link px-2 text-white">Services</a>
+          </li>
+        </ul>
+        <ul class="nav justify-content-center pb-3 mb-3 d-flex d-sm-none">
+          <li class="nav-item">
+            <a href="#whyus" class="nav-link px-2 text-white">Why Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faqs" class="nav-link px-2 text-white">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link px-2 text-white">About</a>
+          </li>
+        </ul>
+
+        <!-- Desde SM en adelante: una sola fila con los 6 enlaces -->
+        <ul class="nav justify-content-center pb-3 d-none d-sm-flex">
+          <li class="nav-item">
+            <a href="#home" class="nav-link px-2 text-white">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link px-2 text-white">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link px-2 text-white">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#whyus" class="nav-link px-2 text-white">Why Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faqs" class="nav-link px-2 text-white">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link px-2 text-white">About</a>
+          </li>
+        </ul>
+
+        <p class="text-center text-secondary">
+          © <span id="current-year"></span> Company, Inc
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+
+    <!-- Back to top button -->
+    <a id="backToTop" href="#home" class="back-to-top">&#8593;</a>
+
+    <!-- Typed -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+
+    <!-- Script -->
+    <script src="./assets/js/scripts.js" defer></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="./assets/js/chart.js" defer></script>
+  </body>
+</html>

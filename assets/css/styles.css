@@ -1,0 +1,384 @@
+/* ----- Styles ----- */
+body {
+  background-color: #0c0c0c !important;
+  color: #fff !important;
+}
+
+section {
+  scroll-margin-top: 60px;
+}
+
+.border-secondary {
+  border-color: #444 !important;
+}
+
+.lead {
+  color: #ccc !important;
+}
+
+.btn-nvidia {
+  background-color: #76b900 !important;
+  border-color: #76b900 !important;
+  color: #fff !important;
+}
+
+.btn-nvidia:hover {
+  filter: brightness(1.1);
+}
+
+.btn-outline-nvidia {
+  color: #76b900 !important;
+  border-color: #76b900 !important;
+}
+
+.btn-outline-nvidia:hover {
+  background-color: #76b900 !important;
+  color: #fff !important;
+}
+
+/* ----- Hide span and show complete h1 TITLE ----- */
+#typed {
+  display: none;
+}
+.typed-fallback {
+  display: inline;
+}
+
+/* When js is active inverse visibility */
+.js #typed {
+  display: inline;
+}
+.js .typed-fallback {
+  display: none;
+}
+
+/* ----- Navbar ----- */
+.navbar-toggler {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ccc' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.nav-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+}
+
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active:focus {
+  background-color: transparent;
+}
+
+/* ------- Hero Carousel ----- */
+#heroCarousel .carousel-indicators button {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+}
+
+#heroCarousel .carousel-indicators .active {
+  background-color: #76b900;
+}
+
+#heroCarousel .carousel-item img {
+  border: 1px solid #444 !important;
+  border-radius: 0.25rem; /* optional rounding to “fit” the design */
+  transition: none; /* disable any border transition on hover */
+}
+
+#heroCarousel .carousel-item img:hover {
+  border: 1px solid #444 !important;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.carousel-indicators {
+  position: static;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+#heroCarousel .carousel-item img {
+  border-radius: 0.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+}
+#heroCarousel .carousel-item:hover img {
+  border-color: rgba(118, 185, 0, 0.5);
+}
+
+/* ----- Back to top ----- */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #76b900;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 1000;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  filter: brightness(1.1);
+}
+
+/* Section Background & Overlay */
+.section-bg {
+  position: relative;
+  height: 400px;
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+.section-bg .bg-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.7);
+  width: 100%;
+  height: 100%;
+}
+.section-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  background-color: rgba(12, 12, 12, 0.85);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+.section-overlay h2 {
+  margin-bottom: 0.5rem;
+}
+.section-overlay p.lead {
+  margin-bottom: 0;
+}
+.partner-section .partner-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.partner-section .partner-slide-track {
+  display: flex;
+  width: max-content;
+  animation: partner-scroll 40s linear infinite;
+}
+
+.partner-section .partner-slide {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+@keyframes partner-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.partner-section .partner-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Vertical Divider */
+.vertical-divider {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+  bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical-divider .circle {
+  width: 8px;
+  height: 8px;
+  background-color: #76b900;
+  border-radius: 50%;
+}
+.vertical-divider .line {
+  flex-grow: 1;
+  width: 1px;
+  background-color: #76b900;
+}
+
+/* Extra Sections (Slide Effect) */
+#extraSections {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.6s ease;
+}
+#extraSections.open {
+  max-height: 3000px;
+}
+.extra-img {
+  filter: brightness(0.9);
+}
+
+/* Faq */
+/* Fondo negro */
+.cta-section {
+  background-color: #0c0c0c !important;
+}
+
+/* Títulos en blanco */
+.cta-section h2,
+.cta-section .card-title {
+  color: #fff !important;
+}
+
+/* Texto secundario en gris claro */
+.cta-section .text-white-50 {
+  color: #ccc !important;
+}
+
+/* Botón principal (“Get Started”): verde NVIDIA, texto negro */
+.cta-section .btn-light {
+  background-color: #76b900 !important;
+  border-color: #76b900 !important;
+  color: #000 !important;
+}
+.cta-section .btn-light:hover {
+  filter: brightness(1.1);
+}
+
+/* Botón secundario (“Learn More”): outline verde NVIDIA */
+.cta-section .btn-outline-light {
+  color: #76b900 !important;
+  border-color: #76b900 !important;
+}
+.cta-section .btn-outline-light:hover {
+  background-color: #76b900 !important;
+  color: #fff !important;
+}
+
+/* Tarjeta: fondo gris oscuro y borde gris */
+.cta-section .card {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+}
+.cta-section .card-body {
+  color: #fff;
+}
+
+/* Inputs: fondo negro, borde gris, texto gris claro */
+.cta-section .form-control {
+  background-color: #0c0c0c !important;
+  border: 1px solid #444 !important;
+  color: #ccc !important;
+}
+.cta-section .form-control::placeholder {
+  color: #666 !important;
+}
+
+/* Botón “Book Now” */
+.cta-section .btn-primary {
+  background-color: #76b900 !important;
+  border-color: #76b900 !important;
+  color: #000 !important;
+}
+.cta-section .btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+/* Contenedor: borde externo 2px gris de Bootstrap y esquinas redondeadas */
+#faqAccordion {
+  border: 2px solid var(--bs-secondary);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Ítems: sólo líneas divisorias internas (sin borde propio completo) */
+#faqAccordion .accordion-item {
+  border: none;
+  border-bottom: 1px solid var(--bs-secondary);
+}
+/* Quitar la línea del último ítem para no duplicar con el borde externo */
+#faqAccordion .accordion-item:last-of-type {
+  border-bottom: none;
+}
+
+/* Botones cerrados: fondo negro, texto blanco, flecha verde */
+#faqAccordion .accordion-button {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+#faqAccordion .accordion-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  transform: translateY(-50%);
+  background-image: url("data:image/svg+xml;charset=UTF-8,\
+<svg xmlns='http://www.w3.org/2000/svg' fill='%2376b900' viewBox='0 0 16 16'>\
+<path d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647\
+a.5.5 0 1 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/>\
+</svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Botón abierto: fondo NVIDIA, texto y flecha blancas */
+#faqAccordion .accordion-button:not(.collapsed) {
+  background-color: #76b900 !important;
+  color: #fff !important;
+}
+#faqAccordion .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml;charset=UTF-8,\
+<svg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'>\
+<path d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647\
+a.5.5 0 1 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/>\
+</svg>") !important;
+}
+
+/* Cuerpo: fondo negro */
+#faqAccordion .accordion-body {
+  background-color: #000;
+}
+/* Párrafos en gris claro */
+#faqAccordion .accordion-body p {
+  color: #ccc;
+}

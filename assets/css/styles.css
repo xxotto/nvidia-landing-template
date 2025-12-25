@@ -8,6 +8,10 @@ section {
   scroll-margin-top: 60px;
 }
 
+#home {
+  scroll-margin-top: 0;
+}
+
 .border-secondary {
   border-color: #444 !important;
 }

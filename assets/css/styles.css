@@ -72,10 +72,32 @@ section {
   -webkit-backdrop-filter: blur(10px);
 }
 
+.nav-pills .nav-link {
+  position: relative;
+}
+
+.nav-pills .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  width: 0;
+  height: 2px;
+  background-color: #76b900;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: width 0.2s ease, opacity 0.2s ease;
+}
+
 .nav-pills .nav-link.active {
   background-color: transparent;
   font-weight: bold;
   border: none;
+}
+
+.nav-pills .nav-link.active::after {
+  width: 22px;
+  opacity: 1;
 }
 
 .nav-pills .nav-link.active:hover,
